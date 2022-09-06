@@ -10,6 +10,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const meta = {
     title: "PGBNGUYEN - Developer, Writer, Creator",
     description: `Bao Nguyen is a Full-Stack Developer based in Toronto, Canada with 3 years of web development expertise using ReactJS/TypeScript/NodeJS and the ASP.NET C# platform. At BKG Group, I collaborate with the project director, designer, and embed developers to design and build the front-end and back-end of construction monitoring websites. Understanding how to design front-end user interfaces (UX) for web applications using HTML, CSS, JavaScript, React, and other JavaScript frameworks. CSS components, server-side CSS pre-processing platforms (such as SCSS), and visualization frameworks such as D3.js are also familiar. Experience with asynchronous request processing, partial page updates, and AJAX; creating CRUD system; awareness of standard front-end development tools such as Babel, Webpack, and NPM; Agile, version control (Git), code review, cloud server (Azure), and unit testing are a plus.`,
+
     image:
       "https://res.cloudinary.com/practicaldev/image/fetch/s--SFl1FUYG--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/431916/3e74fd3d-11bf-4164-b33a-2557cf69dd51.png",
     type: "website",
@@ -21,16 +22,10 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
-        <meta
-          property="og:url"
-          content={`https://yourwebsite.com${router.asPath}`}
-        />
-        <link
-          rel="canonical"
-          href={`https://yourwebsite.com${router.asPath}`}
-        />
+        <meta property="og:url" content={`https://www.pgbnguyen.com/`} />
+        <link rel="canonical" href={`https://www.pgbnguyen.com/`} />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Manu Arora" />
+        <meta property="og:site_name" content="Bao Nguyen" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
