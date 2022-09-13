@@ -63,7 +63,7 @@ const userData = {
     "https://pgbnguyen.notion.site/My-Resume-3cc59dffdb4343eea3a2ad5704a7cb9f",
   socialLinks: {
     instagram: "https://www.instagram.com/hiimnoon/",
-    twitter: "https://twitter.com/mannupaaji",
+    twitter: "https://twitter.com/pgbnguyen",
     linkedin: "https://www.linkedin.com/in/pgbnguyen/",
     github: "https://github.com/pgbnguyen",
     facebook: "https://www.facebook.com/gbnguyenpham/",
